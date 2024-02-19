@@ -1,4 +1,4 @@
-FROM aquay.io/ansible/awx-ee:latest
+FROM quay.io/ansible/awx-ee:latest
 User root
 RUN pip3 install --no-cache-dir hvac
 RUN pip install --no-cache-dir \
